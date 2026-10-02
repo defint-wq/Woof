@@ -80,9 +80,7 @@ class MainActivity : ComponentActivity() {
     }
 }
 
-/**
- * Composable that displays an app bar and a list of dogs.
- */
+
 @Composable
 fun WoofApp() {
     Scaffold(
@@ -101,9 +99,7 @@ fun WoofApp() {
     }
 }
 
-/**
- * Composable that displays a Top Bar with an icon and text.
- */
+
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun WoofTopAppBar(modifier: Modifier = Modifier) {
@@ -129,9 +125,6 @@ fun WoofTopAppBar(modifier: Modifier = Modifier) {
     )
 }
 
-/**
- * Composable that displays a list item containing a dog icon and their information.
- */
 @Composable
 fun DogItem(
     dog: Dog,
